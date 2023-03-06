@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .logo, .link, .login {
+    background-color: yellow;
+    border: 1px dashed black;
+}
+.imput {
+    background-color: yellow;
+    text-align: center;
+    border: 1px dashed black;
+    
+}
+.blu {
+    background-color: blue;
+    width: 1500px;
+    height: 400px;
+    border: 1px solid blue;
+}
+.pink {
+    background-color: pink;
+    border: 1px dashed black;
+    width: 50%;
+    height: 50%;
+}
