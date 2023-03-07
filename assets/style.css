@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header {
+.imput {
     background-color: aquamarine;
     display: flex;
     justify-content: center;
@@ -28,7 +28,6 @@ header {
 
 .container1 {
     background-color: blue;
-    width: 1400px;
     height: 300px;
     border: 1px solid blue;
     display: flex;
@@ -44,7 +43,6 @@ header {
 }
 .container2 {
     background-color: white;
-    width: 1400px;
     height: 300px;
     border: 1px solid white;
     display: flex;
@@ -67,7 +65,6 @@ header {
 }
 .container3 {
     background-color: gray;
-    width: 1400px;
     height: 300px;
     border: 1px solid gray;
     display: flex;
@@ -89,14 +86,12 @@ header {
 }
 .container4 {
     background-color: white;
-    width: 1400px;
     height: 300px;
     border: 1px solid white;
     
 }
 .container5 {
     background-color: gray;
-    width: 1400px;
     height: 600px;
     border: 1px solid gray;
     display: flex;
@@ -111,7 +106,6 @@ header {
 }
 .container6 {
     background-color: black;
-    width: 1400px;
     height: 300px;
     border: 1px solid black;
     display: flex;
@@ -135,7 +129,6 @@ header {
  {
     background-color: black;
     margin-top: 3px;
-    width: 1400px;
     height: 100px;
     display: flex;
     justify-content: center;
