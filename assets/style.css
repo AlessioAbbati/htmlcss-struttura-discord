@@ -30,71 +30,63 @@
 
 .jumbo {
     background-color: blue;
-    height: 300px;
     border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-inline: 1rem;
-   
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .pink {
     background-color: pink;
     border: 1px dashed black;
     width: 50%;
-    height: 200px;
+    min-height: 250px;
     
 }
 .container2 {
     background-color: white;
-    height: 300px;
     border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-inline: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-.d1 {
+.image {
     background-color: blue;
     border: 1px dashed black;
     width: 40%;
-    height: 200px;
+    min-height: 250px;
     
 }
-.d2 {
+.text {
     background-color: pink;
     border: 1px dashed black;
     width: 20%;
-    height: 200px;
+    min-height: 250px;
     
 }
 .container3 {
     background-color: gray;
-    height: 300px;
     border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
     padding-inline: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-.d3 {
-    background-color: blue;
-    border: 1px dashed black;
-    width: 40%;
-    height: 200px;
-}
-.d4 {
-    background-color: pink;
-    border: 1px dashed black;
-    width: 20%;
-    height: 200px;
-}
+
 .container4 {
     background-color: white;
-    height: 300px;
     border: 1px solid white;
     padding-inline: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .container5 {
     background-color: gray;
@@ -160,4 +152,12 @@
     border: 1px dashed black;
     padding-inline: 1rem;
  }
- 
+ .container2, .container3, .container4, .container5 {
+    flex: 0 0 60%;
+ }
+ .d1, .d2, .d3, .d4, {
+    flex: 0 0 40%;
+ }
+ .green {
+    flex: 0 0 60%;
+ }
