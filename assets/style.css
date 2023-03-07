@@ -90,11 +90,12 @@
 }
 .container5 {
     background-color: gray;
-    height: 600px;
     border: 1px solid gray;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .green {
     background-color: green;
@@ -152,12 +153,12 @@
     border: 1px dashed black;
     padding-inline: 1rem;
  }
- .container2, .container3, .container4, .container5 {
+ .container2, .container3, .container5 {
     flex: 0 0 60%;
  }
- .d1, .d2, .d3, .d4, {
+ .text, .image {
     flex: 0 0 40%;
  }
  .green {
-    flex: 0 0 60%;
+    flex: 0 0 80%;
  }
