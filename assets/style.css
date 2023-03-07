@@ -9,12 +9,13 @@
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
+    padding-inline: 1rem;
 }
 .logo, .login {
     background-color: yellow;
     border: 1px dashed black;
     width: 10%;
+    padding-inline: 1rem;
 }
 .login {
     text-align: right;
@@ -24,15 +25,18 @@
     border: 1px dashed black;
     width: 40%;
     text-align: center;
+    padding-inline: 1rem;
 }
 
-.container1 {
+.jumbo {
     background-color: blue;
     height: 300px;
     border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-inline: 1rem;
+   
 }
 .pink {
     background-color: pink;
@@ -47,7 +51,8 @@
     border: 1px solid white;
     display: flex;
     justify-content: center;
-    align-items: center 
+    align-items: center;
+    padding-inline: 1rem;
 }
 .d1 {
     background-color: blue;
@@ -71,6 +76,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+    padding-inline: 1rem;
 }
 .d3 {
     background-color: blue;
@@ -88,7 +94,7 @@
     background-color: white;
     height: 300px;
     border: 1px solid white;
-    
+    padding-inline: 1rem;
 }
 .container5 {
     background-color: gray;
@@ -111,6 +117,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-inline: 1rem;
 }
 .d5 {
     background-color: pink;
@@ -146,9 +153,11 @@
  .logo2 {
     background-color: pink;
     border: 1px dashed black;
+    padding-inline: 1rem;
  }
  .btn {
     background-color: pink;
     border: 1px dashed black;
+    padding-inline: 1rem;
  }
  
